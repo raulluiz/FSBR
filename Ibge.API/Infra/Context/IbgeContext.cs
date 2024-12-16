@@ -1,10 +1,8 @@
 ﻿using Core.Entities;
-using Infra.EntityConfig;
+using Ibge.API.Infra.EntityConfig;
 using Microsoft.EntityFrameworkCore;
-using Microsoft.Extensions.Configuration;
-using System.IO;
 
-namespace Infra.Context;
+namespace Ibge.API.Infra.Context;
 
 public class IbgeContext(DbContextOptions<IbgeContext> options) : DbContext(options)
 {
